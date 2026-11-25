@@ -1,0 +1,20 @@
+# Ambiente virtual
+.venv/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+
+# Saídas do PyInstaller
+build/
+dist/
+*.spec
+
+# Binários copiados pelo build.ps1 (ffmpeg e deno)
+bin/
+
+# Editores / sistema
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
